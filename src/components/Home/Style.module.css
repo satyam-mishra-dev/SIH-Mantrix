@@ -3,6 +3,10 @@
     clip-path: circle(100% at 50% 50%);
 }
 
+.toptext span {
+    color: white !important;
+}
+
 /* .links:hover .atag {
     transition: translateY(-100%);
     animation: slideAndFade 0.4s forwards;

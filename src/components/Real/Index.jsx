@@ -60,16 +60,15 @@ function Real() {
                 className="slide w-full flex sm:flex items-center 
                 justify-center h-screen flex-shrink-0 "
             >
-                
                 <div 
                     className="text1 font-[SansitaReg] text-[7vh] leading-[8vh]
-                    sm:text-[15vh] sm:leading-[18vh]"
+                    sm:text-[15vh] sm:leading-[18vh] text-center"
                 >
-                    <h1 className="">
-                        Real Talk,    
+                    <h1 className="text-white">
+                        Real Guidance,
                     </h1>
-                    <h1 className="">
-                        Real Impact
+                    <h1 className="text-white">
+                        Real Futures
                     </h1>
                 </div>
                 <div 
@@ -81,7 +80,6 @@ function Real() {
                         src={img1}
                         className="w-full h-full object-contain rounded-full"
                     />
-
                 </div>
             </div>
             {/* 2nd slide */}
@@ -99,18 +97,14 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
-                    <h3 
-                        className='font-[Sansita] sm:w-1/3 text-left font-semibold 
-                        tracking-tight text-[2.2vh] sm:absolute top-0 left-0 z-[3]  -translate-y-2/3 
-                        sm:-translate-y-1/2 -translate-x-1/3'
-                    >
-                        We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.
+                    <h3 className='text-[2.2vh] sm:text-[2.5vh] font-semibold text-white mb-8'>
+                        We're here to make career choices simple, personal, and powerful.
                     </h3>
-                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white '>
-                        20.4M
+                    <h1 className='font-semibold text-[10vh] sm:text-[20vh] leading-none text-white mb-8'>
+                        20.4K
                     </h1>
-                    <h3 className=' text-[2vh] sm:text-[5vh] font-semibold sm:leading-[7vh]'>
-                        Real people — real lives — we have built products and solutions for.
+                    <h3 className='text-[2vh] sm:text-[5vh] font-semibold text-white'>
+                        Students guided with clarity and confidence.
                     </h3>    
                 </div>
                 <div 
@@ -123,7 +117,7 @@ function Real() {
                     />
                 </div>
                 <div 
-                    className="image absolute w-[20vh] sm:w-[45vh] sm:h-[45vh] first-letter: 
+                    className="image absolute w-[20vh] sm:w-[45vh] sm:h-[45vh] 
                     sm:bottom-0 sm:right-1/6 right-0 sm:-translate-x-2/3 sm:translate-y-1/2
                     translate-y-[20vh]"
                 >
@@ -134,14 +128,12 @@ function Real() {
                 </div>
                 <div 
                     className="image absolute w-[20vh] top-10 -right-2/3 sm:w-[45vh] sm:h-[45vh] sm:top-1/2 
-                    sm:-translate-y-1/2 sm:translate-x-1/2
-                    sm:right-0 "
+                    sm:-translate-y-1/2 sm:translate-x-1/2 sm:right-0 "
                 >
                     <img 
                         src={img5}
                         className="w-full h-full object-contain rounded-full"
                     />
-
                 </div>
             </div>
             
@@ -161,19 +153,14 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>
-                    <h3 
-                        className='font-[Sansita] sm:w-1/3 text-left font-semibold tracking-tight 
-                        text-[2vh]
-                        sm:text-[2.5vh] absolute sm:top-0 sm:left-0 -translate-x-1/2 -translate-y-[30vh] z-[3] 
-                        sm:-translate-y-1/2 sm:-translate-x-1/3'
-                    >
-                        Our team is global and diverse, because our individual experiences make us stronger.
+                    <h3 className='text-[2vh] sm:text-[2.5vh] font-semibold text-white mb-8'>
+                        Diverse voices. Shared vision. Stronger outcomes.
                     </h3>
-                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
+                    <h1 className='font-semibold text-[10vh] sm:text-[20vh] leading-none text-white mb-8'>
                         49%
                     </h1>
-                    <h3 className='text-[3.5vh] whitespace-nowrap sm:text-[6vh] font-semibold sm:leading-[6vh]'>
-                        Expert Women in Tech.
+                    <h3 className='text-[3.5vh] sm:text-[6vh] font-semibold text-white'>
+                        Women mentors and leaders in our network.
                     </h3>    
                 </div>
                 <div 
@@ -193,13 +180,12 @@ function Real() {
                         src={icon3}
                         className="w-full h-full object-contain rounded-full"
                     />
-
                 </div>
             </div>
 
             {/* 4th slide */}
             <div 
-                className="slide w-full h-screen flex  sm:flex items-center justify-center 
+                className="slide w-full h-screen flex sm:flex items-center justify-center 
                 relative flex-shrink-0 "
             >
                 <div 
@@ -212,11 +198,11 @@ function Real() {
                     />
                 </div>
                 <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
-                    <h1 className=' font-semibold text-[10vh] sm:text-[20vh] leading-none text-white'>
+                    <h1 className='font-semibold text-[10vh] sm:text-[20vh] leading-none text-white mb-8'>
                         13
                     </h1>
-                    <h3 className='text-[3.1vh] leading-[3.4vh] sm:text-[6vh] font-semibold sm:leading-[8vh]'>
-                        Nationalities Represented on Our <br/> Team.
+                    <h3 className='text-[3.1vh] sm:text-[6vh] font-semibold text-white'>
+                        Languages supported so every student feels at home.
                     </h3>    
                 </div>
                 <div 
@@ -245,6 +231,42 @@ function Real() {
                         src={img8}
                         className="w-full h-full object-contain rounded-full"
                     />
+                </div>
+            </div>
+
+            {/* 5th slide */}
+            <div 
+                className="slide w-full h-screen flex sm:flex items-center justify-center 
+                relative flex-shrink-0 "
+            >
+                <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
+                    <h3 className='text-[2vh] sm:text-[2.5vh] font-semibold text-white mb-8'>
+                        Powered by data. Driven by people.
+                    </h3>
+                    <h1 className='font-semibold text-[10vh] sm:text-[20vh] leading-none text-white mb-8'>
+                        AI + Mentors
+                    </h1>
+                    <h3 className='text-[2vh] sm:text-[5vh] font-semibold text-white'>
+                        Career paths shaped by intelligence and empathy.
+                    </h3>    
+                </div>
+            </div>
+
+            {/* 6th slide */}
+            <div 
+                className="slide w-full h-screen flex sm:flex items-center justify-center 
+                relative flex-shrink-0 "
+            >
+                <div className='w-[60%] text-center font-[SansitaReg] relative'>                   
+                    <h3 className='text-[2vh] sm:text-[2.5vh] font-semibold text-white mb-8'>
+                        Future-ready guidance for every learner.
+                    </h3>
+                    <h1 className='font-semibold text-[10vh] sm:text-[20vh] leading-none text-white mb-8'>
+                        Next Steps
+                    </h1>
+                    <h3 className='text-[2vh] sm:text-[5vh] font-semibold text-white'>
+                        Stream selection, career prediction, and beyond.
+                    </h3>    
                 </div>
             </div>   
         </div>

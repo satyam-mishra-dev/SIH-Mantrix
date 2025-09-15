@@ -12,23 +12,22 @@ import PropTypes from 'prop-types';
 function Row({ translateClass, direction }) {
 
     const items = [
-        { text: "useful", image: img7 },
-        { text: "intuitive", image: img2 },     
-        { text: "empathetic", image: img3 },     
-        { text: "useful", image: img4 },     
-        { text: "empathetic", image: img5 },
+        { text: "personalized", image: img7 },
+        { text: "insightful", image: img2 },     
+        { text: "empowering", image: img3 },     
+        { text: "reliable", image: img4 },     
+        { text: "inclusive", image: img5 },
         { text: "intuitive", image: img2 },
-        { text: "useful", image: img4 },     
-        { text: "empathetic", image: img5 },
-        { text: "intuitive", image: img2 },     
+        { text: "future-ready", image: img4 },     
+        { text: "accessible", image: img5 },
+        { text: "guided", image: img2 },     
+        { text: "supportive", image: img6 },
+        { text: "innovative", image: img1 },      
         { text: "empathetic", image: img6 },
-        { text: "useful", image: img1 },      
-        { text: "empathetic", image: img6 },
-        { text: "empathetic", image: img5 },
-        { text: "intuitive", image: img2 },
-        { text: "useful", image: img4 },
-                      
-    ]
+        { text: "trusted", image: img5 },
+        { text: "intelligent", image: img2 },
+        { text: "useful", image: img4 },    
+      ]
 
   return (
     <div 
