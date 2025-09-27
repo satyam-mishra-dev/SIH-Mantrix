@@ -1,0 +1,33 @@
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.newCareerPaths .pathOptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.pathOption {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.pathOption:hover {
+  border-color: #a777e3;
+  color: #a777e3;
+}

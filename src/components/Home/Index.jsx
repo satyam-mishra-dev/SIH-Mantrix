@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.set(".slidesm", {scale: 5})
 
-function Home() {
+function Home({ handleLoginClick }) {
 
     const container = useRef(null);
     const videoRef = useRef(null);
@@ -231,11 +231,15 @@ function Home() {
                             <h4
                                 key={index}
                                 onClick={() => {
-                                    const path = routeMap[item];
-                                    if (path) {
+                                    if (item === "Login") {
+                                      handleLoginClick();
+                                    } else {
+                                      const path = routeMap[item];
+                                      if (path) {
                                         window.location.href = path;
+                                      }
                                     }
-                                }}
+                                  }}
                                 className={`${styles.links} h-[3vh] relative py[2.4vh] px-[2.2vh] text-center text-white flex flex-col
                             font-[Sansita] text-[2.1vh] overflow-hidden font-medium leading-[2.5vh]`}
                             > 
@@ -271,7 +275,7 @@ function Home() {
                 
                 className={` vdodiv w-full h-screen absolute z-[3] 
                 top-0 left-0 overflow-hidden sm:overflow-visible ${styles.vdodiv}`}
-            >   
+            >
                 <video
                     ref={videoRef}
                     className="absolute w-full h-screen object-cover top-1/2 left-1/2 
@@ -306,7 +310,7 @@ function Home() {
                     
                     className='slidesm absolute scale-[5]  top-1/2 left-1/2
                     -translate-x-1/2 -translate-y-1/2 w-[90%]'
-                >    
+                >
                     <div className='row'>
                         <Row 
                             translateClass="-translate-x-1/2"  

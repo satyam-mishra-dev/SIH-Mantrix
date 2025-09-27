@@ -1,0 +1,44 @@
+.card {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recommendedPath {
+  grid-column: 1 / 4;
+}
+
+.pathHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.matchPercentage {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.exploreButton {
+  background-color: #fff;
+  color: #6e8efb;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.exploreButton:hover {
+  background-color: #f0f2f5;
+}
