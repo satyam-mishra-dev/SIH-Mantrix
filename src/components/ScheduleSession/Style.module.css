@@ -1,0 +1,35 @@
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scheduleSession ul {
+  list-style: none;
+  padding: 0;
+}
+
+.scheduleSession li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mentorInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mentorIcon {
+  width: 32px;
+  height: 32px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
